@@ -1,6 +1,6 @@
 import React from "react";
 import { Weather } from "./App";
-import { kelvinToCelsius, kelvinToFahrenheit } from '../util/converters'
+import { kelvinToCelsius, kelvinToFahrenheit } from '../util/convert';
 import "./app.css";
 
 type Props = {

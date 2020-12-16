@@ -45,3 +45,28 @@ body {
   top: 8px;
   width: 24px;
 }
+
+.search-input {
+  display: inline-block;
+  position: relative;
+}
+
+.autocomplete {
+  background-color: white;
+  border: 1px solid black;
+  left: 0;
+  max-height: 240px;
+  min-width: 240px;
+  overflow-y: auto;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+}
+
+.autocomplete-item {
+  cursor: pointer;
+}
+
+.autocomplete-item:hover {
+  background-color: lightgray;
+}
