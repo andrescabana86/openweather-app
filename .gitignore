@@ -5,3 +5,4 @@ dist
 *.log
 yarn.lock
 database.sqlite
+city.list.json
