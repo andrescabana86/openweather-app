@@ -1,7 +1,7 @@
 {
-  "name": "assemble-weather",
+  "name": "openweather-app",
   "version": "1.0.0",
-  "description": "Assemble Weather App",
+  "description": "Open Weather App",
   "main": "src/server/index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -10,7 +10,7 @@
     "server": "ts-node-dev src/server/index.ts",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "Assemble",
+  "author": "openweather-app",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.0",
