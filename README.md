@@ -59,6 +59,7 @@ All the frontend code (react, css, js and any other assets) will be in client di
 - Lack of knowledge at Backend side.
 
 ### Implementation choises
+- Comment as much as possible.
 - No needed extra libraries.
 - Debounced autocomplete api call with a custom hook.
 - Reuse code as much as possible.
@@ -66,6 +67,8 @@ All the frontend code (react, css, js and any other assets) will be in client di
 - Reused Backend code to create autocomplete endpoint.
 
 ### Improvements planned with more time
+- Add more comments to my work in order to describe
+  components and reusable functions.
 - Separate API calls from components
 - Serialize api responses adding types to call responses 
   in order to avoid repeating the same process inside classes.
