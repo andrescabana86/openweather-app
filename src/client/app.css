@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  margin: auto;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 360px;
+}
+
+.switch-unit-button {
+  background-color: rgba(0,0,0,.6);
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-top: 8px;
+  outline: none;
+  padding: 2px 10px;
+}
+
+.weatherCard {
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  box-shadow: 2px 2px 2px #aaa;
+  margin: 40px auto;
+  padding: 8px;
+  width: 300px;
+}
