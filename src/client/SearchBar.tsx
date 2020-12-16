@@ -27,7 +27,8 @@ export default function SearchBar(props: Props) {
   const onSelectAutocompleteOption = (id: number) => {
     const selected = autocompleteResults.find((item) => item.id === id);
     props.onSearch(selected.name);
-    setText(selected.name);
+    setAutocompleteResults([]);
+    setText('');
   };
 
   /**
@@ -58,6 +59,7 @@ export default function SearchBar(props: Props) {
             {autocompleteResults.map((item) => (
               <AutocompleteItem
                 item={item}
+                key={item.id}
                 onClick={onSelectAutocompleteOption}
                 showExtra={autocompleteResultsHasRepeated}
               />
